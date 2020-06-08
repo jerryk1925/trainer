@@ -1,6 +1,4 @@
-import React from 'react'
-// import { Header } from 'trainer/components/Header/index.jsx'
-
+import React from "react"
 import { Header } from 'trainer/components/Header'
 
 export const App = () => {
