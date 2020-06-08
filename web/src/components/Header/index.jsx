@@ -1,8 +1,5 @@
 import React from 'react';
 
-
 export const Header = () => {
-    return (
-        <div>Headr</div>
-    )
-}
+  return <div>Headr</div>;
+};

@@ -1,11 +1,11 @@
-import React from "react"
-import { Header } from 'trainer/components/Header'
+import React from 'react';
+import { Header } from 'trainer/components/Header';
 
 export const App = () => {
-    return (
-        <div>
-            <Header />
-            App
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      App
+    </div>
+  );
+};
