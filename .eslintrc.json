@@ -9,39 +9,33 @@
   ],
   "rules": {
     "indent": "off",
-    "react/jsx-indent": [2, 4],
-    "react/jsx-indent-props": [2, 4],
+    "react/jsx-indent": [0, 2],
+    "react/jsx-indent-props": [0, 2],
     "react/jsx-no-target-blank": 0,
     "react/jsx-one-expression-per-line": 0,
-    "react/jsx-wrap-multilines": {
-      "declaration": "parens",
-      "assignment": "parens",
-      "return": "parens",
-      "arrow": "parens",
-      "condition": "ignore",
-      "logical": "ignore",
-      "prop": "ignore"
-    },
-    "react/no-danger": false,
+    "react/no-danger": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "jsx-a11y/no-static-element-interactions": false,
-    "jsx-a11y/anchor-is-valid": false,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "jsx-a11y/label-has-for": [ 2, {
       "required": {
           "some": [ "nesting", "id" ]
       },
       "allowChildren": true
     }],
-    "react/forbid-prop-types": false,
+    "react/forbid-prop-types": 0,
     "jsx-quotes": ["error", "prefer-single"],
-    "import/prefer-default-export": false,
-    "import/no-cycle": false,
+    "import/prefer-default-export": 0,
+    "import/no-cycle": 0,
     "import/no-unresolved": 0,
     "prettier/prettier": "error",
     "no-undef": "error"
   },
   "plugins": [
-    "prettier"
+    "prettier",
+    "react-hooks",
+    "react"
   ]
 }
