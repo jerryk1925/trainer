@@ -1,0 +1,27 @@
+.wrapper{
+  border: none;
+  outline: none;
+  padding: 14px 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-transform: capitalize;
+  
+}
+
+.primary{
+  background: var(--root-color-primary);
+  color: var(--root-color-white);
+}
+
+.white{
+  background: var(--root-color-white);
+  color: var(--root-color-primary);
+}
+
+.contentWidth{
+  min-width: 100px;
+}
+
+.fullWidth{
+  width: 100%;
+}
